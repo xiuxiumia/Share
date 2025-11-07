@@ -1533,22 +1533,3 @@ server <- function(input, output, session) {
 
 # 4. --- A Call to The ShinyApp ----
 shinyApp(ui = ui, server = server)
-
-
-# Places could potentially improve:
-# 1. Show more descriptive statistics
-# 2. Diagnosis of DDA
-# 3. Why is there a Null in the CDDA output?
-# 4. Add more help texts
-# 4. Make the report.Rmd neat!
-
-# Problem 1
-# Use bca as boottype:
-# DDA Variables Error Message: estimated adjustment 'a' is NA
-# DDA RESIDUAL Error message : argument "prob.trans" is missing, with no default
-# DDA Independence Error Message: estimated adjustment 'a' is NA
-# Do you think a help text or a warning message should put there?
-
-# Problem 2
-# When I select boot for HSIC Inference method
-# Error: object 'critical_value' not found
